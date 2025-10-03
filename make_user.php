@@ -1,9 +1,9 @@
 <?php
 require __DIR__ . '/config_mysqli.php';
 
-$email = '67160160@go.buu.ac.th';
-$name  = '67160160';
-$plain = 'Justamin0_'; // เปลี่ยนตามต้องการ
+$email = '';
+$name  = '';
+$plain = ''; // เปลี่ยนตามต้องการ
 
 $hash = password_hash($plain, PASSWORD_DEFAULT);
 
